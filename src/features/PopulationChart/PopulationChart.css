@@ -1,0 +1,25 @@
+.population-chart .tick line {
+    stroke: #C0C0BB;
+}
+
+.population-chart .tick text {
+    fill: #635F5D;
+}
+
+.population-chart .mark {
+    fill: #137B80;
+}
+
+.population-chart .axis-label {
+    font-size: 2em;
+    fill: #635F5D;
+}
+
+.population-chart .tooltip {
+    width: 50px;
+    height: 30px;
+    background-color: #635F5D;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+.iris-scatter-plot .tick line {
+    stroke: #C0C0BB;
+}
+
+.iris-scatter-plot .tick text {
+    fill: #635F5D;
+    cursor: default;
+}
+
+.iris-scatter-plot .mark {
+    /* fill: #137B80; */
+}
+
+.iris-scatter-plot .axis-label {
+    font-size: 2em;
+    fill: #635F5D;
+}
+
+.iris-scatter-plot .dropdown-label {
+    color: #000;
+}
+
+.iris-scatter-plot label, .iris-scatter-plot select {
+    font-size: 1.5em;
+}
+
+.iris-scatter-plot option {
+    font-size: 1.5rem;
+}
+
+.iris-scatter-plot .dropdown-wrapper-parent {
+    display: flex;
+    flex-flow: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.iris-scatter-plot .dropdown-wrapper {
+    display: flex;
+    flex-flow: row;
+    gap: 1em;
+}
+
+.iris-scatter-plot .dropdown-wrapper .dropdown {
+    width: 200px;
+}
