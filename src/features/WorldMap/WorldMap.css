@@ -1,17 +1,22 @@
 .world-map .marks .land {
-    fill: #137B80;
+    fill: #ECECEC;
 }
 
 .world-map .marks .interiors {
     fill: none;
-    stroke: #339498;
+    stroke: #D9DFE0;
 }
 
 .world-map .marks .sphere {
-    fill: #ECECEC;
+    fill: #FBFBFB;
 }
 
 .world-map .marks .graticules {
     fill: none;
-    stroke: #DADADA;
+    stroke: #ECECEC;
+}
+
+.world-map .marks circle {
+    fill: #137B80;
+    opacity: 0.5;
 }
