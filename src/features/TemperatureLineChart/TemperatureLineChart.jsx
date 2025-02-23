@@ -74,7 +74,7 @@ export const TemperatureLineChart = ({ width=window.innerWidth, height=window.in
                     className="axis-label"
                     textAnchor="middle"
                     transform={`translate(${-yAxisLabelOffset}, ${innerHeight / 2}) rotate(-90)`}
-                >{xAxisLabel}</text>
+                >{yAxisLabel}</text>
                 <AxisLeft
                     yScale={yScale}
                     innerWidth={innerWidth}
@@ -85,7 +85,7 @@ export const TemperatureLineChart = ({ width=window.innerWidth, height=window.in
                     x={innerWidth / 2}
                     y={innerHeight + xAxisOffsetValue}
                     textAnchor="middle"
-                >{yAxisLabel}</text>
+                >{xAxisLabel}</text>
                 <Marks
                     data={data}
                     xScale={xScale}

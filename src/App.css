@@ -8,13 +8,39 @@ body {
   height: 100%;
 }
 
-.container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  align-content: center;
+.title {
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
 }
 
-.title {
-  color: black;
+.charts-content {
+  overflow-y: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.menu {
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-right-width: 0.1px;
+  border-right-color: ccc;
+  padding-right: 0;
+}
+
+.content { 
+  width: 100vw;
+  height: 100vh;
+}
+
+.list-group {
+  border-radius: 0;
+}
+
+.list-group-item {
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  cursor: pointer;
 }

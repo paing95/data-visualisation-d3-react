@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 /* d3 */
 import { scaleSqrt, max } from "d3";
 
@@ -31,7 +29,7 @@ export const WorldMap = ({ width=window.innerWidth, height=window.innerHeight })
         .range([0, maxRadius])
 
     return <div className="world-map">
-        <svg width={width} height={height} className="population-bar-chart">
+        <svg width={width} height={height}>
             <Marks
                 world={world}
                 cities={cities}

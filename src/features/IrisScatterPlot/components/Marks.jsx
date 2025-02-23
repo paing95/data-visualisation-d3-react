@@ -12,6 +12,6 @@ export const Marks = ({
         r={circleRadius}
     >
         <text>{tooltipFormat(xValue(d))}</text>
-    </circle>    
+    </circle>
     )
 }
