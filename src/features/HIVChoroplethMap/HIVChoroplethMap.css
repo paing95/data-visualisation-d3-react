@@ -1,0 +1,18 @@
+.hiv-choropleth-map .marks .interiors {
+    fill: none;
+    stroke: #D9DFE0;
+}
+
+.hiv-choropleth-map .marks .sphere {
+    fill: #FBFBFB;
+}
+
+.hiv-choropleth-map .marks .graticules {
+    fill: none;
+    stroke: #ECECEC;
+}
+
+.hiv-choropleth-mapp .marks circle {
+    fill: #137B80;
+    opacity: 0.5;
+}

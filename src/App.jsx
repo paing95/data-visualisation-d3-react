@@ -7,6 +7,7 @@ import { TemperatureLineChart } from './features/TemperatureLineChart/Temperatur
 import { WorldMap } from './features/WorldMap/WorldMap';
 import { MissingMigrantsChart } from './features/MissingMigrantsChart/MissingMigrantsChart';
 import { MissingMigrantsWorldMap } from './features/MissingMigrantsWorldMap/MissingMigrantsWorldMap';
+import { HIVChoroplethMap } from './features/HIVChoroplethMap/HIVChoroplethMap';
 
 /* boostrap */
 import { ListGroup } from 'react-bootstrap';
@@ -29,7 +30,8 @@ const App = () => {
     "Temperature Chart": <TemperatureLineChart width={width} height={height} />,
     "World Map": <WorldMap width={width} height={height} />,
     "Missing Migrants": <MissingMigrantsChart width={width} height={height} />,
-    "Missing Migrants World Map": <MissingMigrantsWorldMap width={width} height={height} />
+    "Missing Migrants World Map": <MissingMigrantsWorldMap width={width} height={height} />,
+    "HIV Choropleth Map": <HIVChoroplethMap width={width} height={height} />
   };
 
   return <div className='row content'>
