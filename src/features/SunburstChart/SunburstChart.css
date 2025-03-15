@@ -1,0 +1,8 @@
+.sunburst-chart svg {
+    font: 10px sans-serif;
+}
+
+.sunburst-chart svg .labels-group {
+    user-select: none;
+    text-anchor: middle;
+}
