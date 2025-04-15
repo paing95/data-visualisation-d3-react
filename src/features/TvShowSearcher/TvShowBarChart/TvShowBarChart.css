@@ -1,0 +1,37 @@
+.tvshow-bar-chart .tick line {
+    stroke: #C0C0BB;
+}
+
+.tvshow-bar-chart .tick text {
+    fill: #635F5D;
+}
+
+.tvshow-bar-chart .mark {
+    fill: #137B80;
+    cursor: pointer;
+}
+
+.tvshow-bar-chart .mark-text {
+    fill: #fff;
+}
+
+.tvshow-bar-chart .axis-label {
+    font-size: 2em;
+    fill: #635F5D;
+}
+
+.tvshow-bar-chart .tooltip {
+    width: 50px;
+    height: 30px;
+    background-color: #635F5D;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tvshow-bar-axis-label {
+    font-size: 1.5em;
+    color: #635F5D;
+    /* margin-top: -3em !important; */
+    margin-bottom: 2em !important;
+}

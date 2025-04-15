@@ -1,0 +1,15 @@
+.tvshow-details .info {
+    text-align: left;
+}
+
+.tvshow-details .info .badge {
+    margin-right: 10px;
+}
+
+.tvshow-details .row {
+    margin-bottom: 1em;
+}
+
+.tvshow-details .title {
+    margin-bottom: 1em;
+}

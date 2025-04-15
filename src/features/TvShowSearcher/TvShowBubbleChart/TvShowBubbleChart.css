@@ -1,0 +1,21 @@
+.tvshow-bubble-chart .circle-text {
+    fill: #635F5D;
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+
+.tvshow-axis-label {
+    font-size: 1.5em;
+    color: #635F5D;
+    /* margin-top: -4em !important; */
+    margin-bottom: 2em !important;
+}
+
+.tvshow-bubble-chart .axis-label {
+    font-size: 1.5em;
+    fill: #635F5D;
+}
+
+.tvshow-bubble-chart .legend-tick {
+    cursor: default;
+}
